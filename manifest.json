@@ -1,91 +1,48 @@
 {
-  "backgrounds": [
-    {
-      "file": "assets/bg-01-shop.webp",
+  "character": "clerk",
+  "anchor": "idle",
+  "states": {
+    "idle": {
+      "file": "assets/characters/clerk/idle.png",
       "size": [
-        1080,
-        1920
-      ],
-      "description": "Main record shop interior",
-      "format": "webp"
+        1086,
+        1448
+      ]
     },
-    {
-      "file": "assets/bg-02-stockroom.webp",
+    "perfect": {
+      "file": "assets/characters/clerk/perfect.png",
       "size": [
-        1080,
-        1920
-      ],
-      "description": "Backroom / stockroom",
-      "format": "webp"
+        1086,
+        1448
+      ]
     },
-    {
-      "file": "assets/bg-03-rooftop.webp",
+    "groove": {
+      "file": "assets/characters/clerk/groove.png",
       "size": [
-        1080,
-        1920
-      ],
-      "description": "Rooftop sunset stage",
-      "format": "webp"
+        1086,
+        1448
+      ]
     },
-    {
-      "file": "assets/bg-04-clouds.webp",
+    "rare": {
+      "file": "assets/characters/clerk/rare.png",
       "size": [
-        1080,
-        1920
-      ],
-      "description": "Above the clouds",
-      "format": "webp"
+        1086,
+        1448
+      ]
     },
-    {
-      "file": "assets/bg-05-orbit.webp",
+    "nervous": {
+      "file": "assets/characters/clerk/nervous.png",
       "size": [
-        1080,
-        1920
-      ],
-      "description": "Orbital / final stage",
-      "format": "webp"
+        1086,
+        1448
+      ]
+    },
+    "panic": {
+      "file": "assets/characters/clerk/panic.png",
+      "size": [
+        1086,
+        1448
+      ]
     }
-  ],
-  "crates": [
-    {
-      "file": "assets/crate-01.png",
-      "size": [
-        1024,
-        768
-      ],
-      "description": "Wooden crate with eclipse sleeve",
-      "format": "png",
-      "transparent": true
-    },
-    {
-      "file": "assets/crate-02.png",
-      "size": [
-        1024,
-        768
-      ],
-      "description": "Wooden crate with metal corners",
-      "format": "png",
-      "transparent": true
-    },
-    {
-      "file": "assets/crate-03.png",
-      "size": [
-        1024,
-        768
-      ],
-      "description": "Lighter wooden crate",
-      "format": "png",
-      "transparent": true
-    },
-    {
-      "file": "assets/crate-04.png",
-      "size": [
-        1024,
-        768
-      ],
-      "description": "Vintage dark crate with label holder",
-      "format": "png",
-      "transparent": true
-    }
-  ]
+  }
 }
